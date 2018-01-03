@@ -1,0 +1,24 @@
+{
+  "name": "preact-profile-card-demo",
+  "version": "1.0.0",
+  "description": "Preact Angular Elements Demo",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "node_modules/.bin/webpack",
+    "build": "rm -rf dist && npm run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aelbore/profile-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "8.2.4",
+    "ts-loader": "2.3.4"
+  },
+  "devDependencies": {
+    "typescript": "2.4.2",
+    "webpack": "3.5.5"
+  }
+}
